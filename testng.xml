@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes" thread-count="2" verbose="2" >
+<parameter name="browser" value="chrome"></parameter>
+
+  <test name="Test1"  >
+  <parameter name="setvalue" value="Redmi mobiles"></parameter>
+
+    <classes>
+
+      <class name="checkValue.RedmiMobile"/>
+      
+      
+    </classes>
+    </test>
+    <parameter name="driver" value="edge"></parameter>
+  <test name="Test2"  >
+  <parameter name="setvalue" value="Redmi mobiles"></parameter>
+
+    <classes>
+
+      
+      <class name="checkValue.WebPage"></class>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

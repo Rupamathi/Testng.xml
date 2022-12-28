@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" guice-stage="DEVELOPMENT" verbose="2" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="driver" value="edge"/>
+  <parameter name="setvalue" value="Redmi mobiles"/>
+  <parameter name="browser" value="chrome"/>
+  <test name="Test1">
+    <parameter name="setvalue" value="Redmi mobiles"/>
+    <classes>
+      <class name="checkValue.RedmiMobile"/>
+    </classes>
+  </test> <!-- Test1 -->
+  <test name="Test2">
+    <parameter name="setvalue" value="Redmi mobiles"/>
+    <classes>
+      <class name="checkValue.WebPage"/>
+    </classes>
+  </test> <!-- Test2 -->
+  <test name="Test2(failed)" parallel="classes">
+    <parameter name="setvalue" value="Redmi mobiles"/>
+    <classes>
+      <class name="checkValue.WebPage">
+        <methods>
+          <include name="ending"/>
+          <include name="saree" invocation-numbers="0"/>
+          <include name="launch"/>
+          <include name="addCart"/>
+          <include name="close"/>
+          <include name="starting"/>
+        </methods>
+      </class> <!-- checkValue.WebPage -->
+      <class name="checkValue.RedmiMobile">
+        <methods>
+          <include name="close"/>
+          <include name="launch"/>
+          <include name="startTime"/>
+          <include name="endTime"/>
+        </methods>
+      </class> <!-- checkValue.RedmiMobile -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->

@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="1" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="76219" started-at="2022-12-28T11:04:18Z" finished-at="2022-12-28T11:05:35Z">
+    <groups>
+    </groups>
+    <test name="Test1" duration-ms="72930" started-at="2022-12-28T11:04:18Z" finished-at="2022-12-28T11:05:31Z">
+      <class name="checkValue.RedmiMobile">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="launch" is-config="true" duration-ms="51402" started-at="2022-12-28T16:34:18Z" finished-at="2022-12-28T16:35:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="startTime" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:10Z" finished-at="2022-12-28T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="homePage()[pri:1, instance:checkValue.RedmiMobile@39ba5a14]" name="homePage" duration-ms="352" started-at="2022-12-28T16:35:10Z" finished-at="2022-12-28T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- homePage -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="endTime" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:10Z" finished-at="2022-12-28T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="mobile(java.lang.String)[pri:2, instance:checkValue.RedmiMobile@39ba5a14]" name="mobile" duration-ms="291" started-at="2022-12-28T16:35:10Z" finished-at="2022-12-28T16:35:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Redmi mobiles]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mobile -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="startTime" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:10Z" finished-at="2022-12-28T16:35:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="startTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="startTime" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:11Z" finished-at="2022-12-28T16:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startTime -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="endTime" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:11Z" finished-at="2022-12-28T16:35:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="addCart()[pri:3, instance:checkValue.RedmiMobile@39ba5a14]" name="addCart" duration-ms="20865" started-at="2022-12-28T16:35:11Z" finished-at="2022-12-28T16:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method status="PASS" signature="endTime()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="endTime" is-config="true" duration-ms="1" started-at="2022-12-28T16:35:31Z" finished-at="2022-12-28T16:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endTime -->
+        <test-method status="PASS" signature="close()[pri:0, instance:checkValue.RedmiMobile@39ba5a14]" name="close" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:31Z" finished-at="2022-12-28T16:35:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- checkValue.RedmiMobile -->
+    </test> <!-- Test1 -->
+    <test name="Test2" duration-ms="3260" started-at="2022-12-28T11:05:31Z" finished-at="2022-12-28T11:05:35Z">
+      <class name="checkValue.WebPage">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="launch" is-config="true" duration-ms="3213" started-at="2022-12-28T16:35:31Z" finished-at="2022-12-28T16:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+        <test-method status="PASS" signature="starting()[pri:0, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="starting" is-config="true" duration-ms="1" started-at="2022-12-28T16:35:35Z" finished-at="2022-12-28T16:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- starting -->
+        <test-method status="FAIL" signature="saree(java.lang.String)[pri:1, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="saree" duration-ms="30" started-at="2022-12-28T16:35:35Z" data-provider="mobiles" finished-at="2022-12-28T16:35:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[saree]]>
+              </value>
+            </param>
+          </params>
+          <exception class="org.openqa.selenium.NoSuchElementException">
+            <message>
+              <![CDATA[no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@type='text'])[1]"}
+  (Session info: MicrosoftEdge=108.0.1462.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EP6OGHFF', ip: '192.168.43.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54034}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\lalit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54100c6e86ef06389ceaeadc2f950ee7
+*** Element info: {Using=xpath, value=(//input[@type='text'])[1]}]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"(//input[@type='text'])[1]"}
+  (Session info: MicrosoftEdge=108.0.1462.54)
+For documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'LAPTOP-EP6OGHFF', ip: '192.168.43.176', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_301'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 108.0.1462.54, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:54034}, msedge: {msedgedriverVersion: 108.0.1462.54 (c2998c8c6617..., userDataDir: C:\Users\lalit\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 54100c6e86ef06389ceaeadc2f950ee7
+*** Element info: {Using=xpath, value=(//input[@type='text'])[1]}
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+	at checkValue.WebPage.saree(WebPage.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:822)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1130)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.NoSuchElementException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- saree -->
+        <test-method status="PASS" signature="ending()[pri:0, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="ending" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:35Z" finished-at="2022-12-28T16:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ending -->
+        <test-method status="SKIP" signature="addCart()[pri:2, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="addCart" duration-ms="0" started-at="2022-12-28T16:35:35Z" depends-on-methods="checkValue.WebPage.saree" finished-at="2022-12-28T16:35:35Z">
+          <exception class="java.lang.Throwable">
+            <message>
+              <![CDATA[Method WebPage.addCart()[pri:2, instance:checkValue.WebPage@6cd8737] depends on not successfully finished methods]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.Throwable: Method WebPage.addCart()[pri:2, instance:checkValue.WebPage@6cd8737] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1039)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.Throwable -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCart -->
+        <test-method status="PASS" signature="close()[pri:0, instance:checkValue.WebPage@6cd8737]" test-instance-name="" name="close" is-config="true" duration-ms="0" started-at="2022-12-28T16:35:35Z" finished-at="2022-12-28T16:35:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- checkValue.WebPage -->
+    </test> <!-- Test2 -->
+  </suite> <!-- Suite -->
+</testng-results>
